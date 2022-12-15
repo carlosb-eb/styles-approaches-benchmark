@@ -2,6 +2,7 @@ import React from 'react';
 import { EventCard as CSSModuleEventCard } from './css-modules/EventCard';
 import { EventCard as PostCSSEventCard } from './post-css/EventCard';
 import { EventCard as SASSEventCard } from './sass/EventCard';
+import { EventCard as StyledComponentsEventCard } from './styled-components/EventCard';
 
 export const App = () => {
   return (
@@ -18,6 +19,13 @@ export const App = () => {
         <li>
           <SASSEventCard />
         </li>
+        <li>
+          <StyledComponentsEventCard />
+        </li>
+
+        <li></li>
+        <li></li>
+        <li></li>
       </ul>
     </div>
   );

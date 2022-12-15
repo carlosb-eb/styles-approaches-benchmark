@@ -13,3 +13,5 @@ The styles should have component scope and don't affect other ones.
 - Compile time / Dev experience
 - Bundle CSS size
 - Usage complexity / learning curve
+- Compenhension velocity / legibility
+- Styles composability
